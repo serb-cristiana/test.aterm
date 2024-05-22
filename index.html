@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" type='text/css' />
+		<link rel="stylesheet" href="css/abootstrap.min.css" type="text/css" />
+    <title>Production Management System Administrator - Login</title>
+    <style>
+      body {
+        background: rgba(227, 227, 227, 0.849)
+      }
+      </style>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="card shadow-lg rounded-lg mt-5">
+            <div class="card-header"><h2>PMS Login</h2></div>
+            <div class="card-body">
+                <form class="form-signin" action="login.php" method="POST">
+                    <label for="utilizator" class="sr-only">Utilizator</label>
+                    <input type="text" id="utilizator" name="utilizator" class="form-control" placeholder="Utilizator"required autofocus>
+                    <br>
+                    <label for="parola" class="sr-only">Parola</label>
+                    <input type="password" id="parola" name="parola" class="form-control" placeholder="Parola" required>
+                    <br>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div> <!-- /container -->
+  </body>
+
+</html>

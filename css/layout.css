@@ -1,0 +1,63 @@
+.pag_contract
+{
+position: relative;
+background-color: lightgray;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 0px;
+margin-top: 0px;
+width:780px;
+height: 1110px;
+
+}
+
+.pag_contract div
+{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.pag_contract h3, h4
+{
+text-align:center;
+margin: 0px;
+}
+
+.centrat{
+  text-align:center;  
+}
+
+.pag_contract table tr td{
+  //width: 100%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.pag_contract table{
+  width: 100%;
+}
+
+.par_contract p
+{
+text-indent: 2em;
+text-align: justify;
+padding-top: 0px;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 0px;
+}
+
+.sigle
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cuTab{
+    overflow: hidden;
+}
+.tab{
+    float: left;
+    //width: 50%;
+}

@@ -1,0 +1,86 @@
+.underFirstNavbar{
+    margin-top: 50px;
+}
+
+/*.underSecondNavbar{
+    margin-top: 130px;
+}*/
+
+.width01{
+    width: 1%;
+}
+
+.width02{
+    width: 2%;
+}
+
+.width03{
+    width: 3%;
+}
+
+.width04{
+    width: 4%;
+}
+
+.width05{
+    width: 5%;
+}
+
+.width07{
+    width: 7%;
+}
+
+.width10{
+    width: 10%;
+}
+
+.width15{
+    width: 15%;
+}
+
+.width20{
+    width: 20%;
+}
+
+.table{
+    table-layout: fixed;
+    text-align: center;
+}
+
+.table th, .table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+/*css ptr header fix*/
+.fixed-header thead{
+  background: #fff;
+  color: #333;
+}
+
+.fixed{
+  top:51px;
+  z-index: 1000;
+  position:fixed;
+  width:auto;
+  display:none;
+  border:none;
+}
+
+
+//tabel productie
+.fara-padding{
+  padding: 0px;
+}
+
+.fara-margin{
+  margin: 0px;  
+}
+
+.tooltip-inner {
+    white-space:pre;
+    max-width: none;
+}
